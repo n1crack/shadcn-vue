@@ -14,7 +14,7 @@ const delegatedProps = computed(() => {
 const forwardedProps = useForwardProps(delegatedProps)
   
 const slots = defineSlots<{
-  default(props: { headingValue: string }): string
+  default(props: { headingValue: string }): any
 }>()
 </script>
 
